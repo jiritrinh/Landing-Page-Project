@@ -34,3 +34,42 @@ a:hover {
 
 
 
+#header {
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subheader {
+    display: flex;
+    gap: 40px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+    
+    
+}
+#text-subheader {
+    align-self: center;
+}
+
+
+h1 {
+    margin: 0;
+}
+h1:hover {
+    color:red;
+}
+h1, h2 {
+    color: azure;
+}
+
+#wlr-album {
+    width: 400px;
+    height: auto;
+}
+
+
+
