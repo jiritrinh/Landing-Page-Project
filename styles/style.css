@@ -1,0 +1,36 @@
+body {
+    margin: auto;
+    font-family: Helvetica;
+}
+
+#navbar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+#carti-logo {
+    width: 15%;
+}
+
+a {
+    text-decoration: 0;
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+
+#header-menu {
+    display:flex;
+    gap: 30px;
+    margin-right: 150px;
+}
+
+
+
