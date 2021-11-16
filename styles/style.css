@@ -95,6 +95,40 @@ h1, h2 {
     width: auto;
 }
 
+/* content */
+#content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
 
+#release-box {
+    display:flex;
+    gap: 80px;
+}
+
+.album-block {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.albcover {
+    height: 250px;
+    width: auto;
+    
+}
+
+#content-title { 
+    color: black;
+
+}
+
+.title-album {
+    align-self: center;
+}
 
 
