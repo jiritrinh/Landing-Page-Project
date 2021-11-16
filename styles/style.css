@@ -3,6 +3,7 @@ body {
     font-family: Helvetica;
 }
 
+/* nav bar */
 #navbar {
     background-color: black;
     width: 100%;
@@ -31,9 +32,9 @@ a:hover {
     gap: 30px;
     margin-right: 150px;
 }
+/*nav bar*/
 
-
-
+/* header */ 
 #header {
     
     background-color: black;
@@ -70,6 +71,30 @@ h1, h2 {
     width: 400px;
     height: auto;
 }
+
+#btn-block {
+    display: flex;
+    border: 3px solid azure;
+    color: azure;
+    background-color: black;
+    padding: 5px;
+    gap: 5px;
+    width: 15%;
+}
+
+#btn-block:hover {
+    color:red;
+    border-color: red;
+}
+#listen-text {
+    font-size: 18px;
+}
+
+#spotify-logo {
+    height: 20px;
+    width: auto;
+}
+
 
 
 
