@@ -142,8 +142,7 @@ h1, h2 {
 
 #quote-block {
     background-color: black;
-    height: 500px;
-    margin-bottom: 200px;
+    height: 450px;
     display:  flex;
     flex-direction: column;
     justify-content: center;
@@ -163,3 +162,47 @@ h1, h2 {
 #quote-author:hover {
     color:red;
 }
+
+/* QUOTE */
+
+/* SIGN UP */
+
+#signup-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+}
+
+#signup-box {
+    display: flex;
+    height: 150px;
+    width: 1300px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+
+}
+#s-text {
+    color: white;
+    margin: 6px 0px;
+}
+
+#s-button {
+
+    border: 3px solid azure;
+    color: azure;
+    background-color: black;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#s-button:hover {
+    border-color: red;
+    color: red;
+}
+
