@@ -80,6 +80,7 @@ h1, h2 {
     padding: 5px;
     gap: 5px;
     width: 15%;
+    border-radius: 5px;
 }
 
 #btn-block:hover {
@@ -123,8 +124,7 @@ h1, h2 {
     
 }
 .albcover:hover {
-    height: 260px;
-    width: auto;
+    box-shadow: 5px 5px 18px #888888;
     
 }
 
@@ -198,6 +198,7 @@ h1, h2 {
     padding: 5px;
     font-size: 18px;
     font-weight: bold;
+    border-radius: 5px;
 
 }
 
