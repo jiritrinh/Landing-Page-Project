@@ -103,6 +103,7 @@ h1, h2 {
     align-items: center;
     gap: 50px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 #release-box {
@@ -121,6 +122,11 @@ h1, h2 {
     width: auto;
     
 }
+.albcover:hover {
+    height: 260px;
+    width: auto;
+    
+}
 
 #content-title { 
     color: black;
@@ -130,5 +136,30 @@ h1, h2 {
 .title-album {
     align-self: center;
 }
+/* CONTENT */
 
+/* QUOTE */
 
+#quote-block {
+    background-color: black;
+    height: 500px;
+    margin-bottom: 200px;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#quote {
+    color: white;
+    font-size: 32px;
+    
+}
+#quote-author {
+    color: white;
+    font-size: 20px;
+}
+#quote-author:hover {
+    color:red;
+}
