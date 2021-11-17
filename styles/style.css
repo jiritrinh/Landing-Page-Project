@@ -206,3 +206,20 @@ h1, h2 {
     color: red;
 }
 
+/* SIGN UP */
+
+/* FOOTER */
+#footer {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#f-text {
+    color: white;
+}
+
+
+/* FOOTER */
+
