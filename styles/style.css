@@ -150,6 +150,11 @@ h1, h2 {
     gap: 30px;
 }
 
+#quote-box {
+    display:flex;
+    justify-content: center;
+}
+
 #quote {
     color: white;
     font-size: 32px;
